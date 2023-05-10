@@ -16,7 +16,7 @@ function MaxValue (shares) {
     const potentialProfit = currentPrice - minPrice;
     //maxima ganancia
     maxProfit = Math.max(maxProfit, potentialProfit);
-    
+    //precio minimo
     minPrice = Math.min(minPrice, currentPrice);
   }
 
